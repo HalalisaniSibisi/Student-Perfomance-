@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 2fr;
+
+}
+
+.main-container {
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem; /* Adjust spacing between grid items */
+        padding: 1rem;
+    
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+#visualisation {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Ensures consistent height for charts */
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}

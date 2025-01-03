@@ -1,0 +1,12 @@
+display: grid;
+grid-template-columns: 1fr 1fr;
+color: black;
+border: 1px solid;
+margin: 20px 0;
+width: 95%;
+max-width: 800px;
+margin: 20px auto;
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
